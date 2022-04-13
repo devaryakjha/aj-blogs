@@ -33,3 +33,14 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# not using yarn2's zero install strategy
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ignore the cms
